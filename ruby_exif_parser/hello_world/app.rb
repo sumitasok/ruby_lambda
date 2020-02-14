@@ -64,7 +64,7 @@ def lambda_handler(event:, context:)
       message: "Hello World!",
       # location: response.body
       latitide: exif.gps.latitude,
-      exif: exif.to_hash.merge(exif.gps.to_h)
+      exif: exif.to_hash.merge(exif.gps.to_h).merge(orientation: exif.orientation.to_sym)
     }.to_json
   }
 end

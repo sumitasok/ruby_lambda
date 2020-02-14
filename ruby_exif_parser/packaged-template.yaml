@@ -12,7 +12,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://cartislambdacoderubyexifparser/d078bc5d8f01ff52942907dc3d4b3820
+      CodeUri: s3://cartislambdacoderubyexifparser/60da3537b541bfd28b9ce996386baf71
       Handler: app.lambda_handler
       Runtime: ruby2.5
       Events:
