@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  ruby_2_5:
+    image: ruby_2.5
+    build:
+      context: .
+    command: bundle install --path  vendor/bundle
+    volumes: 
+      - .:/app

@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'exifr', '~> 1.2', '= 1.2.5'
+gem 'aws-sdk-s3', '~> 1.0.0.rc2'
+
+# gem 'mocha', '~> 1.2', '>= 1.2.1'
